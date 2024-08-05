@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "coursera-mlops"
+version = "0.1.0"
+description = "The test environment for course"
+authors = ["Joey Chen <hangghost@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-cli = "^2.62.0"
+azureml-core = "^1.56.0"
+python-dotenv = "^1.0.1"
+transformers = "^4.43.3"
+datasets = "^2.20.0"
+torch = "^2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
